@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="test2" ISN_2="1" LastIsn="1" id="3">
-          <LastModified _date="738894" _time="46301" date="09/01/2024" time="12:51:41"/>
+          <LastModified _date="738894" _time="46962" date="09/01/2024" time="13:02:42"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="5"/>
+        <ItemIsn val="8"/>
         <Resource>
           <Columns>
             <Column id="1" name="a1">
@@ -51,6 +51,33 @@
               </PropertyList>
             </Column>
             <Column id="3" name="a3">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554436" name="a4">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554437" name="a5">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554438" name="a6">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -143,6 +170,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -155,6 +183,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -167,6 +196,46 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="6"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554438" FlowIsn="33554438" id="33554438">
+                  <Column val="33554436"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="8"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554439" FlowIsn="33554439" id="33554439">
+                  <Column val="33554437"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="10"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554440" FlowIsn="33554440" id="33554440">
+                  <Column val="33554438"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -177,11 +246,162 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="12" _last_test_id="12" id="1">
             <PropertyList model="FORM_GUI0">
+              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="test2"/>
             </PropertyList>
+            <Control _test_id="7" id="33554439">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a1:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="1" id="33554433">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="1"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="1" id="43"/>
+                <ControlName id="46" val="a1"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="8" id="33554440">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a2:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="26"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="2" id="33554434">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="2"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="26"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="2" id="43"/>
+                <ControlName id="46" val="a2"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="9" id="33554441">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a3:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="44"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="3" id="33554435">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="3"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="44"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="3" id="43"/>
+                <ControlName id="46" val="a3"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="10" id="33554442">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a4:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="62"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="33554436">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="33554438"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="62"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="33554438" id="43"/>
+                <ControlName id="46" val="a4"/>
+                <TabOrder id="314" val="4"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="11" id="33554443">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a5:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="80"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="5" id="33554437">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="33554439"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="80"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="33554439" id="43"/>
+                <ControlName id="46" val="a5"/>
+                <TabOrder id="314" val="5"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="12" id="33554444">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="a6:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="98"/>
+                <Width id="23" val="13"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="6" id="33554438">
+              <PropertyList model="CTRL_GUI0_EDIT">
+                <Model ID="MODEL_GUI_INT" id="1">
+                  <Var FieldID="33554440"/>
+                </Model>
+                <X id="21" val="21"/>
+                <Y id="22" val="98"/>
+                <Width id="23" val="109"/>
+                <Height id="24" val="10"/>
+                <Data FieldID="33554440" id="43"/>
+                <ControlName id="46" val="a6"/>
+                <TabOrder id="314" val="6"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
